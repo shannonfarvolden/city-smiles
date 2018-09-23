@@ -1,7 +1,7 @@
 <template>
-  <div class="header">
-    <h1>CitySmiles</h1>
-  </div>
+  <b-jumbotron header="City Smiles" bg-variant="info">
+    <p>Helping you find the resouces you need</p>
+  </b-jumbotron>
 </template>
 
 <script>
@@ -10,10 +10,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.header{
-    background-color: teal;
-    padding: 25px;
-    text-align: center;
-}
-</style>
+
