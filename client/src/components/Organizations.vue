@@ -42,9 +42,9 @@ computed: {
         if (this.search === '')
             return this.organizations;
 
-        const vm = this;
+        const search = this.search.toLowerCase()
         const result = this.organizations.filter(function (organization) {
-            return organization.name.toLowerCase().match(vm.search.toLowerCase());
+            return organization.name.toLowerCase().match(search) || organization.email.toLowerCase().match(search) || organization.description.toLowerCase().match(search) || organization.category.toLowerCase().match(search);
         })
         return result;
     }

@@ -1,3 +1,3 @@
 City Smiles App
 
-git run dev (will run both client and server)
+npm run dev (will run both client and server)
