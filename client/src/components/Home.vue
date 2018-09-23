@@ -1,11 +1,20 @@
 <template>
 <div>
-  <b-jumbotron header="City Smiles" bg-variant="info">
-    <p>The resources for smiles!!!</p>
-    <p>City Smiles is a user-firendly tool for discovering and connecting invaluable resources across across the city towards giving all of us a reason to smile</p>
-  </b-jumbotron>
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <div class="card" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+                        <div class="text-white text-center d-flex align-items-center py-5 px-4 my-5">
+                            <div>
+                                <h1 class="card-title pt-3 mb-5 font-bold"><strong>City Smiles</strong></h1>
+                                <p class="mx-5 mb-5">City Smiles is a user-firendly tool utilizing analytics and top UX practices for connecting invaluable resources across across the city towards giving all of us a reason to smile</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
   <div>
-
+ <em>Click an Icon below to filter the map!</em>
 <div>
  <img :src="addiction" width="75px" height="75px" hspace="12px" vspace="12px" v-b-tooltip.hover title="Addiction" v-b-tooltip.html.top>
   <img :src="Law" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Legal Services" v-b-tooltip.html.top>
@@ -21,6 +30,7 @@
 </div>
  <br>
  <br>
+
 
   </div>
    <iframe src="https://snazzymaps.com/embed/100371" width="100%" height="600px" style="border:none;"></iframe>
