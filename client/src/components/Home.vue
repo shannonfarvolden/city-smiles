@@ -7,17 +7,17 @@
   <div>
 
 <div>
- <img :src="addiction" width="75px" height="75px" hspace="12px" vspace="12px">
-  <img :src="Law" width="75px" height="75px"  hspace="12px" vspace="12px" >
-   <img :src="employment" width="75px" height="75px"  hspace="12px" vspace="12px">
-  <img :src="FemaleShelter" width="75px" height="75px"  hspace="12px" vspace="12px" >
-   <img :src="MaleShelter" width="75px" height="75px"  hspace="12px" vspace="12px">
-  <img :src="FoodBank" width="75px" height="75px"  hspace="12px" vspace="12px">
-   <img :src="goverment" width="75px" height="75px"  hspace="12px" vspace="12px">
-  <img :src="refugee" width="75px" height="75px"  hspace="12px" vspace="12px">
-    <img :src="senior" width="75px" height="75px" hspace="12px" vspace="12px">
-   <img :src="Health" width="75px" height="75px" hspace="12px" vspace="12px">
-  <img :src="Community" width="75px" height="75px" hspace="12px" vspace="12px">
+ <img :src="addiction" width="75px" height="75px" hspace="12px" vspace="12px" v-b-tooltip.hover title="Addiction" v-b-tooltip.html.top>
+  <img :src="Law" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Legal Services" v-b-tooltip.html.top>
+   <img :src="employment" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Employment Servies" v-b-tooltip.html.top>
+  <img :src="FemaleShelter" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Womens Shelter" v-b-tooltip.html.top>
+   <img :src="MaleShelter" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Mens Shelter" v-b-tooltip.html.top>
+  <img :src="FoodBank" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Food Bank" v-b-tooltip.html.top>
+   <img :src="goverment" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Governmental Services" v-b-tooltip.html.top>
+  <img :src="refugee" width="75px" height="75px"  hspace="12px" vspace="12px" v-b-tooltip.hover title="Refugee Services" v-b-tooltip.html.top>
+    <img :src="senior" width="75px" height="75px" hspace="12px" vspace="12px" v-b-tooltip.hover title="Senior Services" v-b-tooltip.html.top>
+   <img :src="Health" width="75px" height="75px" hspace="12px" vspace="12px" v-b-tooltip.hover title="Health Services" v-b-tooltip.html.top>
+  <img :src="Community" width="75px" height="75px" hspace="12px" vspace="12px" v-b-tooltip.hover title="Community Services" v-b-tooltip.html.top>
 </div>
  <br>
  <br>
